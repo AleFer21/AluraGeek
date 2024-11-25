@@ -1,0 +1,28 @@
+{
+  "productos": [
+    {
+      "nombre": "Goku",
+      "precio": "50",
+      "imagen": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2019/07/resina-iluminada-goku-ultra-instinto_5.jpg?tf=1920x",
+      "id": 1
+    },
+    {
+      "nombre": "Pain",
+      "precio": "70",
+      "imagen": "https://i.ebayimg.com/thumbs/images/g/KeUAAOSwfkdk3oPU/s-l1200.jpg",
+      "id": 2
+    },
+    {
+      "nombre": "Gojo",
+      "precio": "55",
+      "imagen": "https://www.kaioland.com/wp-content/uploads/2024/03/Jujutsu-Kaisen-LX-Studio-Satoru-Gojo-Resin-Statue-1.jpg",
+      "id": 4
+    },
+    {
+      "nombre": "Hisashi Mitsui",
+      "precio": "80",
+      "imagen": "https://i.ebayimg.com/images/g/46YAAOSwNd5dyMdv/s-l1200.jpg",
+      "id": 5
+    }
+  ]
+}

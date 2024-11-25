@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Alura Geek</title>
+</head>
+<body>
+    <header class="header">
+        <img class="header__image" src="./img/image 1.svg" alt="Tres corazones rojos">
+        <h1 class="header__title">AluraGeek</h1>
+    </header>
+    <main class="container">
+        <section class="productos">
+            <h2 class="productos__title">MIS PRODUCTOS:</h2>
+            <ul class="productos__lista" data-lista>
+            </ul>
+        </section>
+        <section class="agregar-producto">
+            <h2 class="agregar-producto__title">
+                <span>AGREGAR</span>
+                <span>PRODUCTO:</span>
+            </h2>            
+            <form class="agregar-producto__form" data-form>
+                <div>
+                    <input type="text" name="nombre" id="nombre" placeholder="nombre..." data-nombre>
+                </div>
+                <div>
+                    <input type="text" name="precio" id="precio" placeholder="precio..." data-precio>
+                </div>
+                <div>
+                    <input type="text" name="imagen" id="imagen" placeholder="url de la imagen..." data-imagen>
+                </div>
+                <div class="button">
+                    <button class="button__agregar" type="submit">Agregar</button>
+                    <button class="button__limpiar">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__title">
+            <img src="./img/image 1.svg" alt="Tres corazones">
+            <h2>AluraGeek</h2>
+        </div>
+        <p class="footer__texto">DESARROLLADO POR DARIO ALEJANDRO FERNANDEZ</p>
+        <p class="footer__texto">ALURA LATAM - 2024</p>
+    </footer>
+    <script type="module" src="./js/mostrarProductos.js"></script>
+    <script type="module" src="./js/crearProducto.js"></script>
+    <script type="module" src="./js/eleminarProducto.js"></script>
+    <script src="./js/botonLimpiar.js"></script>
+</body>
+</html>
